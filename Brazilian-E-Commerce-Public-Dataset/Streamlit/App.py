@@ -65,7 +65,11 @@ if submit_button:
     teks_indo = f"{review_title} {review_message}".strip()
     
     if teks_indo != "":
-        teks_portugis = GoogleTranslator(source='id', target='pt').translate(teks_indo)
+        try:
+            teks_portugis = GoogleTranslator(source='id', target='pt').translate(teks_indo)
+        except Exception:
+            st.warning("⚠️ Server penerjemah Google sedang menolak koneksi. Teks tidak diterjemahkan, hasil prediksi mungkin kurang akurat.")
+            teks_portugis = teks_indo
     else:
         teks_portugis = ""
 
