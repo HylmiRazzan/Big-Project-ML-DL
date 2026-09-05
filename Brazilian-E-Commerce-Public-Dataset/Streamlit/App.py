@@ -121,9 +121,9 @@ if submit_button:
         teks_hasil, status = kamus_hasil[prediksi_akhir]
         
         if status == "error":
-            st.error(f"Hasil: **{teks_hasil}**")
+            st.error(f"Hasil: {teks_hasil}")
         elif status == "warning":
-            st.warning(f"Hasil: **{teks_hasil}**")
+            st.warning(f"Hasil: {teks_hasil}")
         else:
             st.success(f"Hasil: **{teks_hasil}**")
             
