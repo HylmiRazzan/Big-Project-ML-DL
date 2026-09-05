@@ -68,7 +68,7 @@ if submit_button:
         try:
             teks_portugis = GoogleTranslator(source='id', target='pt').translate(teks_indo)
         except Exception:
-            st.warning("⚠️ Server penerjemah Google sedang menolak koneksi. Teks tidak diterjemahkan, hasil prediksi mungkin kurang akurat.")
+            st.warning("Server penerjemah Google sedang menolak koneksi. Teks tidak diterjemahkan, hasil prediksi mungkin kurang akurat.")
             teks_portugis = teks_indo
     else:
         teks_portugis = ""
