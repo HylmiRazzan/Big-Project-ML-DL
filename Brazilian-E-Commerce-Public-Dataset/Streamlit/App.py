@@ -125,7 +125,7 @@ if submit_button:
         elif status == "warning":
             st.warning(f"Hasil: {teks_hasil}")
         else:
-            st.success(f"Hasil: **{teks_hasil}**")
+            st.success(f"Hasil: {teks_hasil}")
             
     except Exception as e:
         st.error(f"Error: {e}")
