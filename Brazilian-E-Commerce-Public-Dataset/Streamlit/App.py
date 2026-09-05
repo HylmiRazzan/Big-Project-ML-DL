@@ -10,7 +10,9 @@ st.write("Sistem otomatis membaca ulasan (Bahasa Indonesia didukung).")
 
 @st.cache_resource
 def load_model():
-    return joblib.load('nps_stacking_model.pkl')
+    lokasi_folder = os.path.dirname(__file__)
+    path_model = os.path.join(lokasi_folder, 'nps_stacking_model.pkl')
+    return joblib.load(path_model)
 
 sistem = load_model()
 preprocessor = sistem['preprocessor']
