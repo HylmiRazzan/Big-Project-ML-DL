@@ -1,4 +1,4 @@
-# [Tulis Judul Proyek Di Sini, Contoh: Prediksi Harga Saham Google dan Intel dengan Long Short-Term Memory (LSTM)]
+# [Google & Intel Corp Stock Data Long Short-Term Memory (LSTM)]
 
 ## 1. Deskripsi Dataset dan Lingkungan Proyek
 
