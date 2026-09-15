@@ -2,7 +2,7 @@
 
 ## 1. Deskripsi Dataset
 
-Proyek ini menggunakan dataset ulasan pengguna dari aplikasi dompet digital DANA yang diambil dari Google Play Store (`review_dana_labelled.csv`). Dataset ini secara spesifik berfokus pada pemrosesan bahasa alami (Natural Language Processing) dan terdiri dari dua informasi utama:
+Proyek ini menggunakan dataset ulasan pengguna dari aplikasi dompet digital DANA yang diambil dari Google Play Store (`review_dana_labelled.csv`). Dataset ini secara spesifik berfokus pada (Natural Language Processing) dan terdiri dari dua informasi utama:
 
 *   **`content`**: Berisi teks mentah dari ulasan atau komentar pengguna.
 *   **`sentimen`**: Berisi label kategori dari ulasan tersebut (contoh: POSITIVE atau NEGATIVE).
