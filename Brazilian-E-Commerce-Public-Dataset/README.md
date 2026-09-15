@@ -1,3 +1,4 @@
+# [Brazilian E Commerce Public Dataset]
 <img width="2486" height="1496" alt="image" src="https://github.com/user-attachments/assets/e8990e5d-caaa-46c7-9e3d-acf39aad9fea" />
 
 
