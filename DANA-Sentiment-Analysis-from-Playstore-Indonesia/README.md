@@ -1,4 +1,4 @@
-# [DANA Sentiment Analysis from Playstore Indonesia]
+# [DANA Sentiment Analysis from Playstore Indonesia Using Sentence Transformers]
 
 ## 1. Deskripsi Dataset
 
