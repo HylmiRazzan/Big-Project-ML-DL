@@ -1,4 +1,5 @@
-#[Natural Disaster Image Classification Using Convolal-Neural-Networks(CNN)]
+# [Natural Disaster Image Classification Using Convolal-Neural-Networks(CNN)]
+
 ## 1. Deskripsi Dataset
 
 Proyek ini menggunakan dataset berupa kumpulan citra (gambar) yang mendokumentasikan berbagai kejadian bencana alam. Tujuan utama dari proyek ini adalah membangun model Convolutional Neural Network (CNN) yang mampu mengklasifikasikan gambar secara otomatis ke dalam empat kategori bencana.
